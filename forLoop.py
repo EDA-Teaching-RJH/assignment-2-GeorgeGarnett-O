@@ -1,10 +1,36 @@
 ### Part One -- your code goes here. 
-EVEN = int(input(1,2,3,4,5,6,7,8,9,10))
-EVEN_C = ( "only give even numbers found in even")
+parity=int (input ("an number bewtween 0 and 10"))
 
-if EVEN > 10 :
+print ("the number is ")
+
+if parity >= 10: 
+  print ("even")
+elif parity >= 9 :
     print ("odd")
-    else ODD < 10:
-        print ("even")
+
+elif parity >= 8: 
+  print ("even")
+
+elif parity >= 7 :
+  print ("odd")
+
+elif parity >= 6:
+  print ("even")
+
+elif parity >=5 :
+  print ("odd")
+
+elif parity >= 4:
+  print ("even")
+
+elif parity >=3:
+  print ("odd")
+
+elif parity >= 2:
+  print ("even")
+
+elif parity >=1:
+  print ("odd")
+
 
 
