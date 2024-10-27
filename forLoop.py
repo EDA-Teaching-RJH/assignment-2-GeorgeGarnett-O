@@ -1,10 +1,11 @@
 ### Part One -- your code goes here. 
 
-parity=int (input ("an number bewtween 0 and 10"))
+for _ in range(100):
 
-print ("the squared number is  ")
+  parity=int (input ("an number bewtween 0 and 10"))
 
-for _ in range(1):
+  print ("the squared number is  ")
+
 
   if parity >= 10: 
     print ("100")
@@ -36,5 +37,8 @@ for _ in range(1):
   elif parity >=1:
     print ("2")
 
+  again=input("do you want to enter another number ? (yes/no):")
 
-
+  if again != ("yes") :
+    
+    print("closed loop!")
