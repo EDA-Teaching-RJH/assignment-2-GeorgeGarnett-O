@@ -1,6 +1,4 @@
-### Part One -- your code goes here. 
 
-for _ in range(100):
 
   parity=int (input ("an number bewtween 0 and 10"))
 
@@ -37,8 +35,4 @@ for _ in range(100):
   elif parity >=1:
     print ("2")
 
-  again=input("do you want to enter another number ? (yes/no):")
-
-  if again != ("yes") :
-    
-    print("closed loop!")
+ 
